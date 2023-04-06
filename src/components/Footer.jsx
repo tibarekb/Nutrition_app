@@ -3,12 +3,14 @@ import { logo } from "../assets";
 import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => (
-  <section className={`${styles.flexCenter} ${styles.paddingY} flex-col bg-black-gradient-2 w-[1280px]`}>
+  <section id="contact" className={`${styles.flexCenter} ${styles.paddingY} flex-col bg-black-gradient-2 w-[1280px]`}>
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
       <div className="flex-[1] flex flex-col justify-start mr-10 ">
       <h1 className={`font-poppins font-normal text-[20px] text-white flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] text-gradient`}>YiHA</h1>
         <p className={`${styles.paragraph} mt-4 max-w-[312px] text-white`}>
-        We will calculate your calories for you with just a few clicks.
+        Phone Number: +251973095959
+        <br />
+        <br /> Email: yisihak1girma@gmail.com
         </p>
       </div>
 
