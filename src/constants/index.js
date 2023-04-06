@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, conversation, ship, mentor  } from "../assets";
 
 export const navLinks = [
   {
@@ -25,23 +25,84 @@ export const features = [
     icon: star,
     title: "Rewards",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Developing diet plans to meet health, nutritional, and weight goals.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "The right nutrient",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Helping clients understand which foods will provide them with the right nutrients.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Planning Recipes",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Supplying menus, recipes, and meal-planning support to clients.",
   },
 ];
+
+export const service = [
+  {
+    id: "service-1",
+    content:
+      "Helping you set and achieve goals for weight loss or maintenance, muscle growth, strength, athletic achievements.",   
+    img: mentor,
+    name: "mentor",
+  },
+  {
+    id: "service-2",
+    content:
+      "Helping clients understand how their bodies process certain nutrients and track their progress.",
+    
+    img: ship,
+    name: "ship"
+  },
+  {
+    id: "service-3",
+    content:
+      "Mentoring clients on how to make lifestyle changes that meet personal exercise and dietary goals.",
+      img: conversation,
+      name: "conversation",
+  },
+  // {
+  //   id: "service-4",
+  //   content:
+  //     "It is usually people in the money business, finance, and international trade that are really rich.",
+  //   img: people03,
+  // },
+  // {
+  //   id: "service-5",
+  //   content:
+  //     "It is usually people in the money business, finance, and international trade that are really rich.",
+  //   img: people03,
+  // },
+  // {
+  //   id: "service-6",
+  //   content:
+  //     "It is usually people in the money business, finance, and international trade that are really rich.",
+  //   img: people03,
+  // },
+];
+
+// export const stats = [
+//   {
+//     id: "stats-1",
+//     title: "User Active",
+//     value: "3800+",
+//   },
+//   {
+//     id: "stats-2",
+//     title: "Trusted by Company",
+//     value: "230+",
+//   },
+//   {
+//     id: "stats-3",
+//     title: "Transaction",
+//     value: "$230M+",
+//   },
+// ];
 
 export const feedback = [
   {
@@ -108,10 +169,7 @@ export const footerLinks = [
         name: "Explore",
         link: "https://www.hoobank.com/explore/",
       },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
+      
     ],
   },
   {
@@ -120,10 +178,6 @@ export const footerLinks = [
       {
         name: "Help Center",
         link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
       },
       {
         name: "Suggestions",
@@ -139,19 +193,7 @@ export const footerLinks = [
       },
     ],
   },
-  {
-    title: "Partner",
-    links: [
-      {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
-      },
-    ],
-  },
+  
 ];
 
 export const socialMedia = [

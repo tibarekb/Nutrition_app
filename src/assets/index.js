@@ -17,12 +17,16 @@ import apple from "./apple.svg";
 import arrowUp from "./arrow-up.svg";
 import discount from "./Discount.svg";
 import facebook from "./facebook.svg";
+import fruits from "./fruits.png";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import conversation from "./conversation.png";
+import ship from "./ship.png";
+import mentor from "./mentor.png";
 
 export {
   airbnb,
@@ -34,6 +38,7 @@ export {
   logo,
   quotes,
   robot,
+  fruits,
   send,
   shield,
   star,
@@ -50,4 +55,7 @@ export {
   people01,
   people02,
   people03,
+  conversation,
+  ship,
+  mentor,
 };
