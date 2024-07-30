@@ -1,5 +1,5 @@
 import styles from "../style";
-import { fruits } from "../assets";
+import { food, food1 } from "../assets";
 
 import GetStarted from "./GetStarted";
 
@@ -9,14 +9,14 @@ const Hero = () => {
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
         
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-black ss:leading-[100.8px] leading-[75px]">
             Nutrition, <br className="sm:block hidden" />{" "}
             <span className="text-gradient">Health and</span>{" "}
           </h1>
           
         </div>
 
-        <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
+        <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-black ss:leading-[100.8px] leading-[75px] w-full">
           wellness consultant
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
@@ -25,7 +25,7 @@ const Hero = () => {
       </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <img src={fruits} alt="billing" className="w-[100%] h-[90%] relative z-[5]" />
+        <img src={food1} alt="billing" className="w-[100%] h-[90%] relative z-[5]" />
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />

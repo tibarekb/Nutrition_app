@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, conversation, ship, mentor  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, conversation, ship, mentor, star_green, planing  } from "../assets";
 
 export const navLinks = [
   {
@@ -14,6 +14,10 @@ export const navLinks = [
     title: "About Us",
   },
   {
+    id: "testimonials",
+    title: "Testimonials",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -22,7 +26,7 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
+    icon: star_green,
     title: "Rewards",
     content:
       "Developing diet plans to meet health, nutritional, and weight goals.",
@@ -36,7 +40,7 @@ export const features = [
   },
   {
     id: "feature-3",
-    icon: send,
+    icon: planing,
     title: "Planning Recipes",
     content:
       "Supplying menus, recipes, and meal-planning support to clients.",

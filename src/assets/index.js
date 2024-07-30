@@ -8,7 +8,7 @@ import logo from "./logo.svg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
-import shield from "./Shield.svg";
+import shield from "./shield.png";
 import star from "./Star.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -27,6 +27,10 @@ import people03 from "./people03.png";
 import conversation from "./conversation.png";
 import ship from "./ship.png";
 import mentor from "./mentor.png";
+import food from "./food.png";
+import food1 from "./food1.png";
+import star_green from "./star_green.png";
+import planing from "./planing.png";
 
 export {
   airbnb,
@@ -58,4 +62,8 @@ export {
   conversation,
   ship,
   mentor,
+  food,
+  food1,
+  star_green,
+  planing,
 };
