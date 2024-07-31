@@ -3,7 +3,7 @@ import { logo } from "../assets";
 import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => (
-  <section id="contact" className={`${styles.flexCenter} ${styles.paddingY} flex-col bg-white-gradient-2 w-[1200px]`}>
+  <section id="contact" className={`${styles.flexCenter} ${styles.paddingY} ${styles.padding} flex-col bg-white-gradient w-full rounded-[20px]`}>
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
       <div className="flex-[1] flex flex-col justify-start mr-10 ">
       <h1 className={`font-poppins font-normal text-[20px] text-white flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-black ss:leading-[100.8px] leading-[75px] text-gradient`}>YiHA</h1>
@@ -48,7 +48,7 @@ const Footer = () => (
             key={social.id}
             src={social.icon}
             alt={social.id}
-            className={`w-[21px] h-[21px] object-contain cursor-pointer ${
+            className={`w-[50px] h-[50px] object-contain cursor-pointer ${
               index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
             }`}
             onClick={() => window.open(social.link)}
